@@ -6,6 +6,7 @@
         {
             BaseClass objBase = new BaseClass();
             objBase.myPublicVar = 1;
+            //objBase.myProtectedVar = 2;
 
             DerivedClass objDerived = new DerivedClass();
             objDerived.myPublicVar = 2;

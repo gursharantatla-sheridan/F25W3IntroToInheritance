@@ -11,10 +11,20 @@ namespace F25W3IntroToInheritance
         private int myPrivateVar;
         protected int myProtectedVar;
         public int myPublicVar;
+
+        public BaseClass()
+        {
+            Console.WriteLine("Base class constructor called");
+        }
     }
 
     class DerivedClass : BaseClass
     {
+        public DerivedClass()
+        {
+            Console.WriteLine("Derived class constructor called");
+        }
+
         public void MyMethod()
         {
             //myPrivateVar = 1;
